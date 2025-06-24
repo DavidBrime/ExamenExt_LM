@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>U-TAD Booking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: aquamarine;">
+        <header id="encabezado" style="border-style: inset; border-radius: 2px; background-color: blue;text-align: center;">
+            <h1>U-TAD Booking</h1>
+            <p>Encuentra alojamientos económicos y accesibles en todos los lugares del globo desde U-TAD Booking</p>
+        </header>
+        <main>
+            <div style="justify-content: space-around;">
+                <input type="text" id="buscador" name="buscador" maxlength="50" placeholder="Encuentra tu hotel..."></input>
+                <select id="piscina" onchange="Piscina()">
+                    <option >Sin Piscina</option>
+                    <option> Con Piscina</option>
+                </select>
+                <button><a href="favoritos.html" target="blank">Ver Favoritos</a></button>
+            </div>
+            <div id="hoteles" style="align-content: center;">
+  
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
